@@ -27,7 +27,10 @@ COPY db.json /db.json
 RUN apk add --no-cache nodejs npm && \
     npm install -g json-server
 
-EXPOSE 80
+# Переменная окружения для порта (Railway)
+ENV PORT=80
+
+EXPOSE $PORT
 
 # Запускаем nginx и json-server
 CMD sh -c "json-server --watch /db.json --host 0.0.0.0 --port 3000 & nginx -g 'daemon off;'"
