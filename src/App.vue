@@ -198,7 +198,7 @@ onMounted(() => {
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  background: linear-gradient(135deg, #8B5CF6 0%, #7C3AED 50%, #6D28D9 100%);
   min-height: 100vh;
   color: #2d3748;
 }
@@ -273,7 +273,7 @@ body {
 
 .form-group input {
   padding: 14px 18px;
-  border: 2px solid rgba(102, 126, 234, 0.2);
+  border: 2px solid rgba(139, 92, 246, 0.2);
   border-radius: 16px;
   font-size: 1rem;
   background: rgba(255, 255, 255, 0.8);
@@ -282,16 +282,16 @@ body {
 }
 
 .form-group input:focus {
-  border-color: #667eea;
+  border-color: #8B5CF6;
   background: white;
-  box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
+  box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.1);
   transform: scale(1.02);
 }
 
 .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 
 .btn-submit {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #8B5CF6 0%, #7C3AED 100%);
   color: white;
   border: none;
   padding: 16px 24px;
@@ -300,12 +300,12 @@ body {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
 }
 
 .btn-submit:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+  box-shadow: 0 6px 20px rgba(139, 92, 246, 0.5);
 }
 
 .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; }
@@ -334,13 +334,13 @@ body {
 }
 
 .date-badge {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #8B5CF6 0%, #7C3AED 100%);
   color: white;
   padding: 6px 14px;
   border-radius: 20px;
   font-size: 0.9rem;
   font-weight: 600;
-  box-shadow: 0 2px 10px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 2px 10px rgba(139, 92, 246, 0.3);
 }
 
 .btn-delete {
@@ -370,19 +370,19 @@ body {
   gap: 12px;
   margin-top: 8px;
   padding-top: 16px;
-  border-top: 1px solid rgba(102, 126, 234, 0.2);
+  border-top: 1px solid rgba(139, 92, 246, 0.2);
 }
 
 .stat-item { display: flex; flex-direction: column; gap: 4px; }
 .stat-label { font-size: 0.8rem; color: #718096; text-transform: uppercase; letter-spacing: 0.5px; }
-.stat-value { font-size: 1.1rem; font-weight: 700; color: #667eea; }
+.stat-value { font-size: 1.1rem; font-weight: 700; color: #8B5CF6; }
 
 .loading-state, .empty-state { text-align: center; padding: 40px 20px; color: #718096; }
 
 .spinner {
   width: 40px; height: 40px;
-  border: 4px solid rgba(102, 126, 234, 0.2);
-  border-top-color: #667eea;
+  border: 4px solid rgba(139, 92, 246, 0.2);
+  border-top-color: #8B5CF6;
   border-radius: 50%;
   animation: spin 1s linear infinite;
   margin: 0 auto 16px;
