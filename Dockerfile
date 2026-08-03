@@ -33,4 +33,4 @@ ENV PORT=80
 EXPOSE $PORT
 
 # Запускаем nginx и json-server
-CMD sh -c "json-server --watch /db.json --host 0.0.0.0 --port 3000 & nginx -g 'daemon off;'"
+CMD sh -c "json-server --watch /db.json --host 0.0.0.0 --port 3000 & sleep 2 && nginx -g 'daemon off;'"
